@@ -1,0 +1,35 @@
+
+BoxLayoutExample:
+
+<BoxLayoutExample>:
+    orientation:"horizontal"
+    Button: 
+        text : "Septian"
+        
+       #Sizing
+        #change size in kv file using size_hint= 1= 100%
+        #size: "100dp", "60dp"
+        #bisa pake width dan height 
+        #width: "100dp"
+        #height: "100dp"
+        size_hint: 1,1
+       
+       #Positioning
+        #pilih salah satu dari set di bawah kalau x,y kalau center_x,center_y
+        #x,center_x,right(0-1)
+        #y,center_y,top(0-1)
+        
+        pos_hint:{"x":.2}
+        
+
+<MainWidget>:
+    Button:
+        
+        text: "Hello"
+        size : "40dp","40dp"
+        pos: "100dp","200dp"
+    Label:
+        text: "This is label"
+        size : "200dp", "100dp"
+        pos : "200dp","300dp"
+        color : 0,100,100,0.5
