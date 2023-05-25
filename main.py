@@ -4,6 +4,8 @@ from kivy.uix.button import Button
 from kivy.uix.widget import Widget
 # using kivy must add "App" in name function
 
+class AnchorLayoutExample(AnchorLayout):
+
 
 class BoxLayoutExample(BoxLayout):
     pass

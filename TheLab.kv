@@ -4,7 +4,7 @@ BoxLayoutExample:
 <BoxLayoutExample>:
     orientation:"horizontal"
     Button: 
-        text : "Septian"
+        text : "A"
         
        #Sizing
         #change size in kv file using size_hint= 1= 100%
@@ -20,6 +20,21 @@ BoxLayoutExample:
         #y,center_y,top(0-1)
         
         pos_hint:{"x":.2}
+    BoxLayout:
+        orientation:"vertical"
+        spacing:"10dp"
+        Button: 
+            text : "a1"
+        Button: 
+            text : "a1"
+        Button: 
+            text : "a1"
+        Button: 
+            text : "a1"
+        Button: 
+            text : "a1"
+    Label: 
+        text : "C"    
         
 
 <MainWidget>:
