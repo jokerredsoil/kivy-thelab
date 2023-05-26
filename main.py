@@ -5,6 +5,8 @@ from kivy.uix.widget import Widget
 # using kivy must add "App" in name function
 
 class AnchorLayoutExample(AnchorLayout):
+    pass
+
 
 
 class BoxLayoutExample(BoxLayout):
