@@ -5,6 +5,9 @@ from kivy.uix.anchorlayout import AnchorLayout
 from kivy.uix.widget import Widget
 # using kivy must add "App" in name function
 
+# class GridLayoutExample(GridLayout):
+#     pass
+
 class AnchorLayoutExample(AnchorLayout):
     pass
 
